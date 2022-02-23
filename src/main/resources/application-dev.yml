@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/onc?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #logging
+  logging:
+    config: classpath:log4j2.xml
+
+  #redis
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
