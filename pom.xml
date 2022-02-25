@@ -17,6 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <commons.lang3.version>3.10</commons.lang3.version>
     </properties>
 
     <!-- spring -->
@@ -36,6 +37,22 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+        <!-- common-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons.lang3.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
