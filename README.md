@@ -1,35 +1,3 @@
-# Language
+# 说明
 
-## C 万物之源
-
-## C++
-
-## C\#
-
-## JAVA
-
-## Python
-
-## Javascript
-
-## Ruby
-
-## PHP
-
-## kotlin 安卓开发语言
-
-## Swift
-
-## Go
-
-## Shell
-
-## HTML
-
-## CSS
-
-## R
-
-## SQL
-
-## Node.Js
+## 一些简单的程序逻辑
